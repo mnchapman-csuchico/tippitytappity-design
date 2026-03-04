@@ -12,6 +12,7 @@ classDiagram
   {
         
   }
+
   class User
   {
         - name: string
