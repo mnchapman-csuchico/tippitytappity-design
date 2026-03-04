@@ -7,12 +7,15 @@ tippitytappity is a program to practice typing
 
 ```mermaid
 classDiagram
-  Test <|-- User
-  class Test{
-        
+  History <|-- User
+  class History{
+        - user_id: int
+        + wpm_history vector~int~
+        + accuracy_history vector~double~
   }
   class User{
         - name: string
+        + user_id: int
         - email: string
         - password: string
         - accuracy: double
