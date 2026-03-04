@@ -10,9 +10,7 @@ classDiagram
   Test <|-- User
   class Test
   {
-        - badges vector~string~
-        + add_badge(title: string)
-        + get_badges() vector~string~
+        
   }
   class User
   {
