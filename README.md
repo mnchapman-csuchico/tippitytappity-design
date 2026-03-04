@@ -8,13 +8,10 @@ tippitytappity is a program to practice typing
 ```mermaid
 classDiagram
   Test <|-- User
-  class Test
-  {
+  class Test{
         
   }
-
-  class User
-  {
+  class User{
         - name: string
         - email: string
         - password: string
